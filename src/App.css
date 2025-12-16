@@ -1,0 +1,61 @@
+.form-page {
+  /* display: flex; */
+  background-color: lightgrey;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 10px;
+  margin: 2%;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 90%;
+  height: 90%;
+  
+}
+
+.field {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.form-lastbox {
+  border: 1px solid black;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.input-main1, .input-main2, .input-main3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.b1-input, .b2-input, .b3-input {
+  width: 30%;
+}
+
+.init {
+  width: 50%;
+}
+
+input.input-error {
+  border: 2px solid red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  display: block;
+}

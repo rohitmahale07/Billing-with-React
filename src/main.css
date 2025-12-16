@@ -1,0 +1,186 @@
+@media print {
+    @page {
+        size: A4;
+        margin: 20mm;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .main-div {
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.main-div {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  min-height: 297mm;
+  width: 210mm;
+}
+
+.bill-container {
+    justify-content: center;
+    text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 95%;
+  width: 95%;
+  margin: 5px;
+}
+.header {
+  display: flex;
+  height: 48.5mm;
+  font-size: smaller;
+}
+
+.main-body {
+  height: 90%;
+}
+
+
+.d1 {
+  width: 20%;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.d2 {
+  width: 80%;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  font-size: smaller;
+  padding: 0%;
+  /* border: 1px solid black; */
+}
+.logo {
+  height: 100%;
+  width: 100%; 
+}
+.qr {
+  height: 55%;
+  width: 85%; 
+}
+
+.d2-sub1{
+  border: 1px solid black;
+  padding: 0%;
+}
+.d2-sub2{
+  display: flex;
+  padding: 0%;
+}
+
+.sub2-1 {
+  width: 80%;
+  border: 1px solid black;
+}
+.sub2-2 {
+  width: 20%;
+  justify-content: right;
+    border: 1px solid black;
+}
+
+.up3table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body1 {
+  justify-content: left;
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 1%;
+  border: 1px solid black;
+  width: 50%;
+
+}
+.body2 {
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 40%;
+}
+.body3 {
+    display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  width: 11%;
+  font-size: smaller;
+}
+
+.tablemain {
+  border: 1px solid black;
+  border-collapse: collapse;
+   width: 100%;
+   height: 100%;
+}
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: smaller;
+}
+.table1 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: smaller;
+}
+.table2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: right;
+  font-size: smaller;
+}
+
+
+.down-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dt1 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.dt2 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 60%;
+}
+.dt3 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+.box3 {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40%;
+  text-align: left;
+  font-size: smaller;
+}
+
+.download {
+    /* border: 1px solid black; */
+    transition: ease-in;
+}
+
+
+.download:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.download:active {
+    transform: scale(0.9);
+ }
+
